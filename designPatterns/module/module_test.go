@@ -10,7 +10,7 @@ func TestSayPublic(t *testing.T) {
 	m := Module{private: "Hello world this is a private message"}
 
 	// Call the module's sayPublic method
-	m.sayPublic()
+	m.SayPublic()
 
 	// There is no explicit assertion in this test, as the output of sayPublic is printed to the console
 	// However, if sayPublic is not functioning correctly, the test will fail.

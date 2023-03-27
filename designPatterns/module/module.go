@@ -13,7 +13,7 @@ func (m Module) sayPrivateInternal() {
 }
 
 // sayPublic calls sayPrivateInternal to print the module's private message
-func (m Module) sayPublic() {
+func (m Module) SayPublic() {
 	m.sayPrivateInternal()
 }
 
@@ -22,5 +22,5 @@ func main() {
 	m := Module{private: "Hello world this is a private message"}
 
 	// Call the module's sayPublic method to print the private message
-	m.sayPublic()
+	m.SayPublic()
 }
